@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#menu a{
+    color: #514d59;
+    padding: 15px;
+}
+#menu{
+    display: flex;
+    list-style-type:none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menu li:nth-child(3){
+    margin-left: 60px;
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body{
+    background-image: url(new\ image.png);
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: center top;
+}
+#goods-section{
+    margin: 20px;
+    padding: 5px;
+}
+#goods-section h2{
+    text-align: center;
+    /* padding-bottom: 10px; */
+} 
+#booking-section{
+    /* height: 450px; */
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+.goods-block{
+    text-align: center;
+    margin: 20px;
+}
+.goods-block h3{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+ 
+color: #514d59;
+ 
+}
+.goods-block p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+ 
+color: #514d59;
+ 
+}
+#flex-info1{
+    display: flex;
+}
+#flex-info2{
+    display: flex;
+}
+#flex-info3{
+    display: flex;
+}
+#flex-info1 div img{
+    height: 500px;
+}
+#flex-info2 div img{
+    height: 500px;
+}
+#flex-info3 div img{
+    height: 500px;
+}
+.background-setting{
+    background-color:aliceblue;
+}
+.margin{
+    margin: 40px;
+    text-align:left;
+    padding-top: 100px;
+}
+.margin p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: left;
+margin-bottom: 30px;
+color: #514d59;
+ 
+}
+.container h2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 70px;
+line-height: 60px;
+text-align: center;
+ 
+color: #514d59;
+padding-bottom: 50px;
+}
+.margin a{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+text-align: left;
+ 
+color: #7000ff;
+text-decoration: none;
+}
+.margin h2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 60px;
+text-align: left;
+ 
+color: #514d59;
+}
+#recommendations{
+    display: flex;
+    justify-content: center; 
+    background-image: url(recommendations.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    /* background-size: cover; 
+    width: 1450px;*/
+    height: 480px;
+ 
+    /* height: 320px; */
+     /* height: 300px;  */
+}
+#flex-div{
+    /* height: 320px; */
+   display: flex;
+   justify-content:center;
+   align-items:center;
+}
+#flex-div h2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+ 
+color: #514d59;
+ 
+}
+/*  
+#flex-div1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+} 
+#flex-div3{
+    display: flex;
+    justify-content: center;
+} */
+/* #flex-div2{
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#flex-div2 h5{
+    margin-bottom: 70px;
+    margin-left: 90px;
+} */
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#booking-title{
+    width: 180px;
+    height:40px;
+    background-color: #212121;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 20px 120px 0px 0px;
+ 
+   }
+   #booking-section{
+    padding-top: 200px;
+    padding-bottom: 200px;
+   }
+   #booking-blur{
+    background: rgba(255, 255, 255, 0.6499999761581421);
+    padding: 25px;
+ 
+border: 1px solid rgba(81, 77, 89, 0.1);
+border-radius: 0px 20px 20px 20px;
+ 
+box-shadow: 0px 0px 0px rgba(81, 77, 89, 0.15), 0px 12px 27px rgba(81, 77, 89, 0.15), 0px 49px 49px rgba(81, 77, 89, 0.13), 0px 110px 66px rgba(81, 77, 89, 0.08), 0px 195px 78px rgba(81, 77, 89, 0.02), 0px 304px 85px rgba(81, 77, 89, 0);
+backdrop-filter: blur(50px);
+   }
+#booking-form{
+    background-color: white;
+    border-radius: 10%;
+    padding: 32px 25px;
+    display: flex;
+    /* margin-left: 25px; */
+}
+#booking-form .fa-solid{
+    color: #884AFF;
+    font-size: 24px;
+    margin-right: 20px;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    /* margin-right:20px; */
+    padding: 10px;
+    border-right:1px solid rgb(210, 208, 208);
+}
+.form-group label{
+    display: block;
+    font-family: "Poppins", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: left;
+ 
+color: rgba(81, 77, 89, 0.800000011920929);
+ width: 100%;
+}
+.form-group input{
+    border: none;
+    outline: none;
+     
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: left;
+width: 100%;
+color: #514d59;
+ 
+}
+#submit{
+    width: 75px;
+height: 75px;
+ 
+background: #884aff;
+ 
+border-radius: 15px;
+ 
+}
+#submit i{
+    font-size: 35px;
+    color: white;
+}
+#booking-wrapper{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+#footer-info{
+    height: 300px;
+    background: #333333;
+    display: flex;
+}
+#footer-last{
+    height: 84px;
+    background: #eaeaea;
+    border: 1px solid rgba(81, 77, 89, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-last div{
+    width: 50%;
+}
+#footer-flex{
+    display: flex;
+    justify-content: space-around;
+}
+#footer-padding{
+    padding-left: 100px;
+}
+#footer-padding a{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: left;
+text-decoration: none;
+color: #615f67;
+ 
+}
+#footer-flex a{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: left;
+text-decoration: none;
+color: #615f67;
+ 
+}
+#footer-logo{
+    padding: 50px;
+} 
+.footer-style h3{
+     
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: left;
+margin-bottom: 20px;
+color: #ffffff;
+ 
+}
+.footer-style ul li a{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: left;
+ 
+color: #fafafa;
+text-decoration: none;
+
+}
+.footer-style ul li{
+    list-style-type:none;
+    padding: 6px;
+}
+.footer-style{
+    padding: 25px;
+    width: 20%;
+}
+#social-media-icons{
+   padding: 40px;
+   display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+}
+#social-media-icons i{
+    color: #fafafa;
+}
+/* #flex-div-i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* #h3-centered{
+    height: auto 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+/* #h3-centered h3{
+    display: inline-block;
+    text-align: center;
+} */
